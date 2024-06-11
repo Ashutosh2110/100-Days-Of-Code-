@@ -17,7 +17,7 @@ class Solution {
             a+=nuts[i];
             b+=bolts[i];
         }
-        int x = 0;
+        
         for(int i=0;i<s.size();i++){
             if(a.find(s[i])!=string::npos){
                c+=s[i];
